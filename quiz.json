@@ -2,20 +2,19 @@
   {
     "question": "What is my favourite colour?",
     "answers": [
-      "pink",
-      "red"
+      "blue"
     ]
   },
   {
     "question": "What is my favourite food?",
     "answers": [
-      "pizza"
+      "chicken"
     ]
   },
   {
     "question": "Which month is my birthday in?",
     "answers": [
-      "november"
+      "october"
     ]
   }
 ]
