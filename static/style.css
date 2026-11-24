@@ -1,0 +1,46 @@
+body{margin:0;background:#14090f;color:#f4e3ea;font-family:system-ui,Segoe UI,Roboto,sans-serif;line-height:1.55}
+header{padding:14px 20px;border-bottom:1px solid #3a1a28}
+.logo{color:#ff4d79;font-weight:700;text-decoration:none;font-size:1.1rem}
+main{max-width:760px;margin:24px auto;padding:0 16px}
+.card{background:#1f0f18;border:1px solid #3a1a28;border-radius:14px;padding:24px 26px}
+h1{margin:.2em 0 .5em;font-size:1.6rem;color:#ff7a9c}
+.lvl{margin:0;color:#c98aa0;font-size:.85rem;letter-spacing:.08em;text-transform:uppercase}
+a{color:#ff7a9c}
+code{background:#2b1522;padding:2px 6px;border-radius:5px;color:#ffb3c6}
+pre{background:#0e0509;border:1px solid #3a1a28;padding:12px;border-radius:8px;overflow:auto;white-space:pre-wrap;word-break:break-all}
+pre.flag{color:#ffd1dd}
+input{padding:10px 12px;border-radius:8px;border:1px solid #4a2336;background:#14090f;color:#f4e3ea;margin:4px 6px 4px 0;min-width:220px}
+label{display:block;margin:12px 0}
+label input{display:block;width:90%;margin-top:6px}
+button{padding:10px 16px;border:0;border-radius:8px;background:#ff4d79;color:#fff;font-weight:600;cursor:pointer}
+button:hover{background:#ff2d63}
+.err{color:#ff8f8f}
+details{margin-top:18px;color:#c98aa0}
+summary{cursor:pointer}
+.nav{margin-top:18px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(130px,1fr));gap:10px;margin:18px 0}
+.cell{display:flex;flex-direction:column;gap:2px;background:#14090f;border:1px solid #3a1a28;border-radius:10px;padding:10px;text-decoration:none;color:#f4e3ea}
+.cell b{color:#ff4d79;font-size:1.1rem}
+.cell span{font-size:.8rem;color:#c98aa0}
+.cell.done{background:#2a0f1c;border-color:#ff4d79}
+.cell.done::after{content:"🎁 unlocked";font-size:.75rem;color:#ffb3c6}
+.count{color:#c98aa0}
+.gift{background:#14090f;border:1px solid #ff4d79;border-radius:10px;padding:14px 16px;margin:10px 0}
+.gift h3{margin:0 0 6px;color:#ffb3c6}
+.gift .n{color:#c98aa0;font-size:.8rem}
+.submit{margin-top:22px;padding-top:14px;border-top:1px dashed #4a2336}
+.submit h3{margin:0 0 8px;color:#ffb3c6}
+.ok{color:#8fe3a8}
+.start{display:inline-block;margin:8px 0;padding:10px 16px;border-radius:8px;background:#ff4d79;color:#fff;font-weight:600;text-decoration:none}
+.cell.open{border-color:#ff4d79}
+.cell.locked{opacity:.45}
+.love{text-align:center}
+.hearts{font-size:1.4rem;margin:8px 0}
+.big{font-size:2.4rem;color:#ff4d79;margin:6px 0 18px;font-family:Georgia,serif;font-style:italic}
+.photos{display:grid;grid-template-columns:repeat(2,1fr);gap:18px;margin:20px 0}
+.polaroid{margin:0;background:#fff7f9;padding:10px 10px 6px;border-radius:4px;box-shadow:0 6px 18px rgba(0,0,0,.5);color:#5a2a3c}
+.polaroid img,.polaroid .ph{width:100%;aspect-ratio:1;object-fit:cover;display:flex;align-items:center;justify-content:center;background:#f3d3dd;color:#b9718a;font-size:.9rem}
+.polaroid figcaption{font-family:Georgia,serif;font-style:italic;padding:8px 0 4px}
+.tilt-l{transform:rotate(-2.5deg)}.tilt-r{transform:rotate(2.5deg)}
+.letter{text-align:left;background:#fff7f9;color:#4a2233;border-radius:6px;padding:22px 26px;margin:24px 0;font-family:Georgia,serif;line-height:1.7;box-shadow:0 6px 18px rgba(0,0,0,.4)}
+@media(max-width:480px){.photos{gap:12px}.big{font-size:1.9rem}}

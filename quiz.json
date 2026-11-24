@@ -1,0 +1,21 @@
+[
+  {
+    "question": "What is my favourite colour?",
+    "answers": [
+      "pink",
+      "red"
+    ]
+  },
+  {
+    "question": "What is my favourite food?",
+    "answers": [
+      "pizza"
+    ]
+  },
+  {
+    "question": "Which month is my birthday in?",
+    "answers": [
+      "november"
+    ]
+  }
+]
